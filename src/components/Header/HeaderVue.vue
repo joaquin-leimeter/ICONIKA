@@ -1,0 +1,14 @@
+<script setup></script>
+
+<template>
+  <header class="flex justify-between h-[3.75rem] p-4 bg-iconicaMain">
+    <div>ICONIKA</div>
+    <ul class="flex">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+  </header>
+</template>
+
+<style></style>

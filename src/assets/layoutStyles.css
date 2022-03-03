@@ -1,0 +1,34 @@
+.grid-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 60px auto 80px;
+  grid-template-areas:
+    "h h h h h h h h h h h h"
+    "c c c c c c c c c c c c "
+    "f f f f f f f f f f f f";
+}
+
+.header {
+  grid-area: h;
+}
+
+.content {
+  grid-area: c;
+}
+
+.footer {
+  grid-area: f;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  background-color: #ffeead;
+  height: 100%;
+  margin: 0px;
+}
+
+#app {
+  height: 100%;
+}
